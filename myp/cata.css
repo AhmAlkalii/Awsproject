@@ -1,0 +1,26 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family:"Poppings",sans-serif;
+}
+:root{
+    --bg-color: linear-gradient(to right, rgb(20, 20, 24), rgb(8, 8, 119));
+    --second-bg-color:linear-gradient(to left, rgb(91, 76, 104), rgb(3, 32, 4));
+    --third-bg-color:rgb(24, 42, 48);
+    --text-color:white;
+    --main-color:lightgrey;
+    background: var(--bg-color);
+}
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
